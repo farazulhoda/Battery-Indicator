@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: green;
+    min-height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.battery-wrapper {
+    position: relative;
+}
+
+.battery-frame {
+    font-size: 100px;
+    color: white;
+}
+
+.battery-bar {
+    background: #111;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    right: 20px;
+    transform: translateY(-50%);
+    width: auto;
+}
